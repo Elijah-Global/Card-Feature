@@ -9,7 +9,7 @@ body{
 }
 
 .main-container{
-    width: 80%;
+    width: 90%;
     margin: auto;
     /* border: 2px solid blue; */
 }
@@ -21,16 +21,19 @@ body{
 }
 
 .body{
-    margin-top: 50px;
+    margin: 50px auto;
     display: flex;
     align-items: center;
     gap: 25px;
+    /* border: 2px solid red;git */
+    width: 80%;
 }
 .sub-body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 25px;
+    width: 33%;
 }
 
 .supervisor{
@@ -38,24 +41,28 @@ body{
     background-color: white;
     border-radius: 8px;
     padding: 20px;
+    width: 33%;
 }
 .team{
     border-top: 3px solid rgb(237, 83, 85);
     background-color: white;
     border-radius: 8px;
     padding: 20px;
+    width: 100%;
 }
 .karma{
     border-top: 3px solid rgb(251, 173, 76); 
     background-color: white;
     border-radius: 8px;
     padding: 20px;
+    width: 100%;
 }
 .calculator{
     border-top: 3px solid rgb(88, 155, 230); 
     background-color: white;
     border-radius: 8px;
     padding: 20px;
+    width: 33%;
 }
 img{
 float: inline-end;
