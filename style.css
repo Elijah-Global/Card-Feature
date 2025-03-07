@@ -27,6 +27,12 @@ body{
     gap: 25px;
     /* border: 2px solid red;git */
     width: 80%;
+    
+}
+.body p {
+    font-size: 0.8rem;
+    width: 90%;
+    padding: 20px 0;
 }
 .sub-body{
     display: flex;
@@ -92,6 +98,7 @@ h2{
     }
     .body{display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .supervisor{
         width: 90%;
